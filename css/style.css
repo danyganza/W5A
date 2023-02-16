@@ -1,0 +1,38 @@
+* {
+  padding: 0%;
+  margin: 0%; }
+
+.page_header {
+  height: 10vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr; }
+
+.page_main {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+  background-color: aquamarine; }
+
+#sec1 {
+  display: grid;
+  place-items: center;
+  text-align: center; }
+  #sec1 h1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-decoration: underline; }
+  #sec1 p {
+    word-wrap: break-word;
+    width: 700px;
+    letter-spacing: 2px; }
+
+img {
+  border-radius: 5%; }
+
+.page_footer {
+  height: 10vh;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr; }
