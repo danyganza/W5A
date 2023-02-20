@@ -1,21 +1,27 @@
+@use "header";
+@use "footer";
+
 * {
     padding: 0%;
     margin: 0%;
 }
 
-.page_header {
-    height: 10vh;
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr;
 
+
+
+
+body {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+    height: 100vh;
 }
 
 .page_main {
     height: 80vh;
     display: grid;
     place-items: center;
-    background-color: aquamarine;
+   
 }
 
 #sec1 {
@@ -33,7 +39,7 @@
     p {
 
         word-wrap: break-word;
-        width: 700px;
+        min-width: 500px;
         letter-spacing: 2px;
 
     }
@@ -49,5 +55,5 @@ img {
     height: 10vh;
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr;
+ 
 }

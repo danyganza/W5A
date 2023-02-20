@@ -1,5 +1,8 @@
-.page_header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.page_header {
+    max-height: 10vh;
     background-color: aqua;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+
 }
