@@ -1,6 +1,6 @@
 .page_header {
-  max-height: 10vh;
-  background-color: aqua;
+  height: 10vh;
+  background-color: rgb(167, 182, 239);
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
@@ -8,7 +8,7 @@
 
 .page_footer {
   height: 10vh;
-  background-color: aqua;
+  background-color: rgb(167, 182, 239);
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
@@ -22,7 +22,6 @@
 body {
   display: grid;
   width: 100vw;
-  grid-template-columns: repeat(auto-fit, mimax(250));
   height: 100vh;
 }
 
@@ -30,12 +29,14 @@ body {
   height: 80vh;
   display: grid;
   place-items: center;
+  background-color: lightgray;
 }
 
 #sec1 {
   display: grid;
   place-items: center;
   text-align: center;
+  grid-template-columns: repeat(auto-fit, mimax(250));
 }
 #sec1 h1 {
   margin-top: 5px;
