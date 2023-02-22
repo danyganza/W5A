@@ -7,7 +7,10 @@
 }
 
 body {
-       height: 100vh;
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, mimax(250px));
+    height: 100vh;
 }
 
 
@@ -15,15 +18,15 @@ body {
 
 .page_main {
  
-    display: grid;
     height: 80vh;
-
-max-width: 100vw;
+    display: grid;
     place-items: center;
-    grid-template-columns: repeat(auto-fit, mimax(250px,1fr));
-    background-color: rgb(213, 186, 186);
 
     img {
+        place-content: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 400px;
     border-radius: 5%;
 }
 
@@ -42,9 +45,8 @@ max-width: 100vw;
     }
 
     p {
-
         word-wrap: break-word;
-        min-width: 500px;
+        max-width: 500px;
         letter-spacing: 2px;
 
     }
